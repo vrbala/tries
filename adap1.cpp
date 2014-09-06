@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string.h>
 
+/**
+ * Program to remove occurrences of pat in str
+ * This is using no space except for look up table and linear time algorithm
+ */
+
 int main()
 {
     char *str = strdup("membermememeererermemberamemberp");
